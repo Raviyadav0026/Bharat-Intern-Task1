@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ravi - Devloper Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(2, 1, 39);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 101px;
+            background-color: rgba(1, 4, 68, 0.919);
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            font-size: 1.02rem;
+            color: rgb(154, 154, 232);
+        }
+
+        main hr {
+            border: 0;
+            background: #9191f7;
+            height: 1.1px;
+            margin: 30px 40px;
+        }
+
+        .left {
+            font-size: 1.6rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 10px 0;
+
+        }
+
+        .firstSection>div {
+            width: 40%;
+
+        }
+
+        .leftSection {
+            margin: 70px;
+            font-size: 2.8rem;
+
+        }
+
+        .leftSection .buttons {
+            padding: 5px;
+        }
+
+        .leftSection .btn {
+            padding: 23px;
+            background-color: rgb(0 23 79);
+            color: #d787df;
+            border: 2px solid white;
+            border-radius: 20px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .btn:hover {
+            font-size: 1.2rem;
+            color: rgb(154, 154, 232);
+        }
+
+        .rightSection img {
+            width: 80%;
+            margin: 50px 0;
+
+        }
+
+        .purple {
+            color: rgb(162, 81, 237);
+        }
+
+        .text-grey {
+            color: rgb(87, 87, 87);
+            font-size: 16px;
+
+        }
+
+        #element {
+            color: rgb(162, 81, 237);
+
+        }
+
+        .secondSection {
+            max-width: 84vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.7rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 85vw;
+            height: 2px;
+            margin: 60px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 70px;
+            width: 1px;
+            background-color: white;
+            margin: 0 127px;
+        }
+
+        .image-top {
+            width: 50px;
+            position: relative;
+            top: -52px;
+            left: -22px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 40px;
+            width: 150px;
+            font-size: 20px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 43px;
+            color: grey;
+            width: 150px;
+            font-size: 13.5px;
+        }
+
+        footer {
+            background-color: rgb(0 4 56);
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 120px;
+            font-size: 17px;
+            justify-content: space-around;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            padding: 8px;
+        }
+
+        footer hr {
+            border: 0;
+            background: #9191f7;
+            height: 1.1px;
+            margin: 5px 40px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav>
+            <div class="left">Ravi's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Ravi Yadav </span>
+
+                <div> and</div>
+                <div>I am a passionate</div>
+                <div> </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Github</button>
+                    <button class="btn">Download Resume </button>
+                    <button class="btn">Linked In</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://i.postimg.cc/50cKJjYx/d.webp" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/j5vmttzC/b.jpg" alt="">
+                    <div class="vertical-title">
+                        Bharat Intern
+                    </div>
+                    <div class="vertical-desc">
+                        Bharat Intern,is a internship program assisted me in not just starting strong,
+                        but finishing even stronger.
+                        where i have expierience as a Web Devloper Intern in which
+                        i made Netflix's replicaand working on a portfolio.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/5Nh6JV9x/codsoft.png" alt="">
+                    <div class="vertical-title">
+                        Codsoft
+                    </div>
+                    <div class="vertical-desc">
+                        Codsoft is a internship program, where i have expierience as a Java Programming Intern
+                        where I nuild, ATM Interface and Number Guessing Game etc projects
+                        it was great experience.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/rwzs5whC/java.png" alt="">
+                    <div class="vertical-title">
+                        Java Programming
+                    </div>
+                    <div class="vertical-desc">
+                        I have sound knowledge of Java Programming.
+                        and compleye a internship as a Java programmer
+                        and gained experience by completing task.
+
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/xdS5ch5Q/html.png" alt="">
+                    <div class="vertical-title">
+                        HTML CSS
+                    </div>
+                    <div class="vertical-desc">
+                        Learned HTML and CSS, making it more better everyday
+                         made Netflix's replica project,
+                        also have experience as a Web Devloper and 
+                        about to complete an internship. 
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/JnYz2wdC/tcs.png" alt="">
+                    <div class="vertical-title">
+                        TCS iON
+                    </div>
+                    <div class="vertical-desc">
+                        Complete and passed tha Soft Skill program offered by
+                        TCSiOn, it was good experience, learned a lot and now making 
+                        more better my Soft Skill day by day.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+        </section>
+
+    </main>
+    <footer>
+        <hr>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Ravi's Devloper Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Service</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="footer-rights">
+            Coptright &#x24B8;2023 raviportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java programmer Intern', 'Web Designer', 'Software Engineer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
